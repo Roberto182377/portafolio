@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios</title>
+</head>
+<body>
+    <h1>Formularios</h1>
+    <!--Para iniciar un formulario, todos los controles dentro, "action" que se desea hacer-->
+    <form action="" method="post" enctype="text/plain">
+        <fieldset><!--Grupo de controles-->
+            <legend>Datos del usuario</legend><!--titulo de grupo de controles-->
+            <label for="usuario">Nombre de usuario:</label> <br/>
+            <input type="text" placeholder="Usuario" maxlength="10" name="usuario" id="usuario"/><br/>
+            <label for="nombre">Nombre</label><br/>
+            <input type="text" name="nombre" id="nombre"/><br/>
+            <label for="ap">Apellido Paterno</label><br/>
+            <input type="text" name="ap" id="ap"/><br/>
+            <label for="am">Apellido Materno</label><br/>
+            <input type="text" name="am" id="am" maxlength="25"/><br/>
+            
+            <label for="pass">Contraseña:</label><br/>
+            <input type="password" name="pass" id="pass" placeholder="" required/><br/>
+
+            <label for="comenta">Comentarios</label><br/>
+            <textarea name="comenta" id="comenta" cols="25" rows="10"></textarea><br/> 
+
+            <label for="">E-mail:</label>
+            <input type="email" name="correo" id="correo"/><br/>
+
+            <label for="colores">Fecha:</label>
+            <input type="date" name="fecha" id="fecha"/><br/>
+
+            <label for="">Selecciona un color:</label>
+            <input type="color" name="colores" id="colores"/><br/>
+
+            <label for="mes">Mes de registro:</label>
+            <input type="month" name="mes" id="mes"/><br/>
+
+            <label for="semana">Semana de registro:</label>
+            <input type="week" name="semana" id="semana"/><br/>
+
+            <label for="archivo">Adjunta tus archivos:</label>
+            <input type="file" name="archivo" id="archivo"/><br/>
+
+            <label for="pagina">Dirección url:</label>
+            <input type="url" name="pagina" id="pagina"/><br/>
+
+            <label for="numero">Ingresa tu edad:</label>
+            <input type="number" name="numero" id="numero"/><br/>
+
+            <label for="numero">Ingresa tu edad:</label>
+            <input type="number" name="numero" id="numero"/><br/>
+
+            <label for="calificaciom">Califica el sitio web:</label>
+            <input type="range" name="calificaciom" id="calificaciom" min="1" max="10" value="8"/><br/>
+
+            <!--checkbox(mas de una casilla/varias)-->
+            <br/><h3>Indica tus formas de pago preferidas:</h3>
+            <input type="checkbox" name="tarjeta" id="tarjeta" value="tarjeta"/>
+            <label for="tarjeta">Tarjeta de credito</label><br/>
+            <input type="checkbox" name="tarjetad" id="tarjetad" value="tarjetad" checked/><!--checked(ya aparece seleccionado la casilla)-->
+            <label for="tarjetad">Tarjeta de debito</label><br/>
+            <input type="checkbox" name="transfer" id="transfer" value="transfer"/>
+            <label for="transfer">Transferencia</label><br/>
+
+            <!--radio(solo dos opciones/casillas)-->
+            <br/><h3>Indica tu género:</h3>
+            <input type="radio" name="genero" id="genero" value="femenino"/>
+            <label type="genero">Femenino</label><br/>
+            <input type="radio" name="genero" id="genero" value="masculino"/>
+            <label type="genero">Masculino</label><br/>
+
+            <h3>Categoría de producto a buscar</h3>
+            <select size="5" multiple>
+                <optgroup label="Alimentos">
+                    <option>Lácteos</option>
+                    <option selected>Refrigerados</option>
+                    <option>Carnes</option>
+                    <option>Frutas y verduras</option>
+                </optgroup>
+                <optgroup label="Cuidado personal">
+                    <option>Higiene personal</option>
+                    <option>Belleza</option>
+                </optgroup>
+                <optgroup label="Hogar">
+                    <option>Productos de limpieza</option>
+                    <option>Jardinería</option>
+                </optgroup>
+            </select>
+
+            <br/> <br/><input type="submit"/>
+
+        </fieldset> 
+    </form>
+</body>
+</html>
