@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cinepolis</title>
+    <style>
+        body{
+            background-image: url('Imagenes/fondoazul.avif');
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: 100%;
+        }
+        fieldset{
+            background-image: url('Imagenes/fondoform.jpg');
+            width: 100;
+            height: 150;
+        }
+        label{
+            color:#ffffff
+        }
+    </style>
+</head>
+<body >
+</br><h1 align="center"><img src="Imagenes/cinepolis.png" alt="cinepolis" width="320" height="90"></h1>
+<form>
+    <fieldset>
+        <table>
+            <tr>
+                <td style="width:240px">
+                    <label for="Cine"><b>Selecciona tu cine:</b><br/></label>
+                        <select size="4">
+                            <option>Cinépolis Plaza Sendero</option>
+                            <option>Cinépolis Plaza El Dorado</option>
+                            <option>Cinépolis Macro Plaza SLP</option>
+                            <option>Cinépolis Tangamanga</option>
+                         </select>
+                </td>
+                <td rowspan="5" align="center">
+                    <table>
+                        <h3><label for="pelicula"><b>Que película deseas ver:</b><br/></label></h3>
+                        <tr align="center">
+                            <td style="width:170px">
+                                <img src="Imagenes/peli1.jpg" alt="peli1" width="140" height="190"   ></br>
+                                <input type="radio" name="pelicula" id="pelicula" value="peli1"/></br>
+                            </td>
+                            <td style="width:170px">
+                                <img src="Imagenes/peli4.jpg" alt="peli4" width="140" height="190"   ></br>
+                                <input type="radio" name="pelicula" id="pelicula" value="peli4"/></br>
+                            </td>
+                            <td style="width:170px">
+                                <img src="Imagenes/peli3.jpg" alt="peli3" width="140" height="190"   ></br>
+                                <input type="radio" name="pelicula" id="pelicula" value="peli3"/></br>
+                            </td>
+                            <td>
+                                <img src="Imagenes/peli5.jpg" alt="peli5" width="140" height="190"   ></br>
+                                <input type="radio" name="pelicula" id="pelicula" value="peli5"/></br>
+                            </td>
+                        </tr>
+                        <tr align="center">
+                            <td style="width:170px">
+                                <img src="Imagenes/peli6.jpg" alt="peli2" width="140" height="190"></br>
+                                <input type="radio" name="pelicula" id="pelicula" value="peli6"/></br>
+                            </td>
+                            <td style="width:170px">
+                                <img src="Imagenes/peli2.jpg" alt="peli2" width="140" height="190"></br>
+                                <input type="radio" name="pelicula" id="pelicula" value="peli1"/></br>
+                            </td>
+                            <td style="width:170px">
+                                <img src="Imagenes/peli7.jpg" alt="peli2" width="140" height="190"></br>
+                                <input type="radio" name="pelicula" id="pelicula" value="peli7"/></br>
+                            </td>
+                            <td style="width:170px">
+                                <img src="Imagenes/peli8.jpg" alt="peli2" width="140" height="190"></br>
+                                <input type="radio" name="pelicula" id="pelicula" value="peli8"/></br>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+                <td style="width:50px"></td>
+                <td>
+                    <br/><label for="boletos"><b>Cantidad de boletos:</b></label><br/>
+                    <input type="number" name="boletos" id="boletos"/><br/>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <br/><label for="Fecha"><b>Fecha de venta:</b></label><br/>
+                    <input type="date" name="Fecha" id="Fecha"/><br/>
+                </td>
+                <td style="width:50px"></td>
+                <td rowspan="2">
+                    <br/><label for="combo"><b>Disfruta con un combo:</b></label><br/>
+                    <table>
+                        <tr>
+                            <td>
+                                <img src="Imagenes/combo.png" alt="combo" width="100" height="100"></br>
+                            </td>
+                            <td>
+                                <select size="4">
+                                    <option>Familiar</option>
+                                    <option>Grande</option>
+                                    <option>Mediano</option>
+                                    <option>Chico</option>
+                                 </select>
+                            </td>
+                        </tr>
+                    </table>
+                </td>  
+            </tr>
+            <tr>
+               <td>
+                    <label for="Hora"><b>Hora de la función:</b></label><br/>
+                    <input type="time" name="Hora" id="Hora"/><br/>
+               </td> 
+            </tr>
+            <tr>
+                <td>
+                    <br/><label for="formato"><b>Formato:</b></label> <br/>
+                    <input type="radio" name="formato" id="formato" value="2D"/>
+                    <label type="formato">2D</label><br/>
+                    <input type="radio" name="formato" id="formato" value="3D"/>
+                    <label type="formato">3D</label><br/>
+                    <input type="radio" name="formato" id="formato" value="4DX"/>
+                    <label type="formato">4DX</label><br/>
+                    <input type="radio" name="formato" id="formato" value="VIP"/>
+                    <label type="formato">VIP</label><br/>
+                </td>
+                <td style="width:50px"></td>
+                <td>
+                    <label for="pago"><b>Método de pago:</b></label><br/>
+                    <input type="radio" name="pago" id="pago" value="2D"/>
+                    <label for="pago">Tarjeta de crédito</label><br/>
+                    <input type="radio" name="pago" id="pago" value="2D"/>
+                    <label for="pago">Tarjeta de débito</label><br/>
+                    <input type="radio" name="pago" id="pago" value="2D"/>
+                    <label for="pago">Deposito</label><br/>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <br/><label for="idioma"><b>Idioma:</b></label> <br/>
+                    <input type="radio" name="idioma" id="idioma" value="español latino"/>
+                    <label type="idioma">Español Latino</label><br/>
+                    <input type="radio" name="idioma" id="idioma" value="subtitulado"/>
+                    <label type="idioma">Subtitulado</label><br/>
+                </td>
+                <td style="width:50px"></td>
+                <td align="center">
+                    <label type="compra"><b>¡Listo!</b></label><br/>
+                    <input type="submit" name="enviar" id="enviar" value="Comprar"/>
+                    <input type="reset" name="borrar" id="borrar" value="Borrar"/>
+                </td>
+            </tr>
+        </table>
+    </fieldset>
+</form>
+</body>
+</html>
