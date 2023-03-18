@@ -1,0 +1,27 @@
+body{
+    background-color: rgb(226, 226, 226);
+    font-family: sans-serif;
+    text-align: justify ;
+
+}
+.nombre{
+    color:rgba(4, 0, 255, 0.938);
+    font-style: italic;
+}
+.link{
+    color: rgb(114, 0, 167);
+    font-weight: bold;
+    font-style: italic;
+    font-size: larger;
+}
+.parrafo{
+    color:rgb(37, 172, 3);
+    font-style: italic;
+    font-size: 18px;
+}
+#uno, #dos{
+    background-color: rgb(204, 247, 180);
+}
+footer{
+    font-size:small; 
+}
