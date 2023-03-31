@@ -1,0 +1,68 @@
+/*FUENTES*/
+@font-face {
+    font-family: "fuente_1";
+    src: url("Font_1/Edu01.ttf");
+}
+@font-face {
+    font-family: "fuente_3";
+    src: url("Font_2/Fuente_2.ttf");
+}
+@font-face {
+    font-family: "fuente_2";
+    src: url("Font_4/KaushanScript-Regular.ttf");
+}
+a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+#vinculo
+{
+    font-family: 'fuente_1', cursive;
+    display:block;
+    width: 400px;
+    padding: 10px;
+    text-align:center;
+    margin:15px auto;
+    background: -moz-linear-gradient(bottom, #1900ff, #0259fa, #009ac0);
+    background: -webkit-linear-gradient(bottom, #1900ff, #0259fa, #009ac0);
+    background: linear-gradient(bottom, #1900ff, #0259fa, #009ac0);
+}
+#vinculo:hover
+{
+    font-family: 'fuente_2', cursive;;
+    display:block;
+    width: 400px;
+    padding: 10px;
+    text-align:center;
+    margin:15px auto;
+    background: -moz-radial-gradient(top, ellipse, #00a808 0%, #008a78 100%);
+    background: -webkit-radial-gradient(top, ellipse, #00a808 0%, #008a78 100%);
+    background: radial-gradient(top, ellipse, #00a808 0%, #008a78 100%);
+    -moz-border-radius: 50px;
+    -webkit-border-radius:  50px;
+    border-radius:  50px;
+    -moz-transform: skew(20deg); 
+    -webkit-transform: skew(20deg);
+    transform: skew(20deg); 
+}
+#vinculo:active
+{
+    font-family: 'fuente_3', cursive;
+    display:block;
+    width: 400px;
+    padding: 10px;
+    text-align:center;
+    margin:15px auto;
+    background: -moz-linear-gradient(bottom, #cf0000, #fa3c02, #df8600);
+    background: -webkit-linear-gradient(bottom, #cf0000, #fa3c02, #df8600);
+    background: linear-gradient(bottom, #cf0000, #fa3c02, #df8600);
+    -moz-border-radius: 50px;
+    -webkit-border-radius:  50px;
+    border-radius:  50px;
+    -moz-transform: skew(20deg); 
+    -webkit-transform: skew(20deg);
+    transform: skew(20deg);
+    -moz-box-shadow: rgb(180, 30, 30) 10px 20px 15px;
+    -webkit-box-shadow: rgb(180, 30, 30)10px 20px 15px;
+    box-shadow: rgb(180, 30, 30) 10px 20px 15px;
+}
