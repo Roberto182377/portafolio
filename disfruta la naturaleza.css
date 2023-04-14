@@ -1,0 +1,82 @@
+@font-face {
+    font-family: "fuente_1";
+    src: url("Font_1/DynaPuff-VariableFont_wdth\,wght.ttf");
+}
+@font-face{
+    font-family: "fuente_2";
+    src: url("Font_2/Lobster-Regular.ttf");
+}
+
+body
+{
+    background-image: url('Imagenes/fondonaturaleza.jpeg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+.titulo
+{
+    display:block;
+    font-family: 'fuente_1', cursive;
+    font-size: x-large;
+    color:aliceblue;
+    margin-left: 900px;
+    margin-top: 5px;
+    position:absolute;
+    width: 300px;
+    text-align:center;
+    padding: 10px;
+    background: -moz-linear-gradient(bottom, #00a509, #058124, #024d0f,#035533);
+    background: -webkit-linear-gradient(bottom, #00a509, #058124, #024d0f,#035533);
+    background: linear-gradient(bottom, #00a509, #058124, #024d0f,#035533);
+    -moz-border-radius: 10px 10px 10px 10px;
+    -webkit-border-radius:  10px 10px 10px 10px;
+    border-radius:  10px 10px 10px 10px;
+}
+nav ol li p 
+{
+    display: block;
+    font-family: 'fuente_2', cursive;
+    font-size: x-large;
+    color:aliceblue;
+    text-align: center;
+    text-decoration: none;
+    width: 180px;
+    padding: 10px;
+    cursor: pointer;
+}
+li.serv > p 
+{
+    background-color: #02630f;
+}
+nav ol li:hover p
+{
+    font-family: 'fuente_2', cursive;
+    font-size: x-large;
+    color:aliceblue;
+    width: 180px;
+}
+nav ol li.serv:hover .servicios
+{
+    display: block;
+    width: 200px;
+}
+.servicios
+{
+    display: none;
+    position: relative;
+    width: 200px;
+    background-color: #038a1a;
+}
+.servicios p
+{
+    display: block;
+    text-align: left;
+    padding: 10px;
+    width: 200px;
+    box-sizing: border-box;
+}
+.servicios p:hover
+{
+    background-color: #04c464;
+}
