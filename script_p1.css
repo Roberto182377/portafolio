@@ -1,0 +1,23 @@
+h1{
+    /*Fuente*/
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(1, 1, 116);
+    text-align: center;
+}
+input
+{
+    /*Fuente*/
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: x-large;
+    text-align: center;
+    color: aliceblue;
+    /*Bloque*/
+    display:block;
+    width: 100%;
+    height: 60px;
+    background-color: rgb(106, 182, 253);
+    border-color: white;
+    -moz-border-radius: 10px;
+    -webkit-border-radius:  10px;
+    border-radius:  10px;
+}
