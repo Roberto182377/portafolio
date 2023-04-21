@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Matematicas</title>
+    <script src="script_p2.js"></script>
+    <link rel="stylesheet" href="script_p2.css"/>
+</head>
+<body>
+    <h1>Operaciones Matemáticas</h1>
+    <form method="post" action="" enctype="text/plain">
+        <label for="num1">Escribe un numero:</br></label>
+        <input type="text" name="num1" id="num1"/></br>
+        <label for="num2">Escribe un numero:</br></label>
+        <input type="text" name="num2" id="num2"/></br></br>
+        <label for="num2">Selecciona que deseas hacer:</br></label>
+        <input type="button" name="boton" value="Sumar" id="boton" onclick="suma()"/>
+        <input type="button" name="boton" value="Restar" id="boton" onclick="resta()"/>
+        <input type="button" name="boton" value="Multiplicar" id="boton" onclick="multiplicacion()"/>
+        <input type="button" name="boton" value="Dividir" id="boton" onclick="division()"/>
+    </form>
+    <p>El resultado es:</p>
+    <p id="resultado" name="resultado"></p>
+</body>
+</html>
