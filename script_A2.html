@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!--Se ingresan los links de donde se tomará el codigo JavaScript y CSS-->
+    <script src="script_A2.js"></script>
+    <link rel="stylesheet" href="script_A2.css"/>
+</head>
+<body>
+    <div id="contiene">
+        <h1>El Desarrollo Web</h1>
+        <h2>Responde las siguientes preguntas:</h2>
+    <!--Se emplea "form" para generar un formularo para el cuestionario-->
+    <form>
+        <div>
+            <!--Se crea una lista ordenada (ol) que va de 1 a 5 preguntas-->
+            <ol>
+                <!--Al 'input' de type 'radio' para ser de solo una opción-->
+                <!--Se identificara con un 'id' de r1 el cual crecera gracias a un contador-->
+                <!--El value debe tener un valor mayor a 0 en donde corresponda la respuesta correcta-->
+                <li>¿Qué es HTML?</li>
+                <input type="radio" name="r1" id="r1" value="0"/>Lenguaje de Multitareas Web<br/>
+                <input type="radio" name="r1" id="r1" value="5"/>Lenguaje de Marcas de Hipertexto<br/>
+                <input type="radio" name="r1" id="r1" value="0"/>Lenguaje Multiple Hexadecimal<br/>
+                <input type="radio" name="r1" id="r1" value="0"/>Lenguaje Multinacional de Internet<br/>
+                <br/>
+                <li>¿Para qué sirve HTML?</li>
+                <input type="radio" name="r2" id="r2" value="5"/>Para estructurar y desplegar una página web y sus contenidos.<br/>
+                <input type="radio" name="r2" id="r2" value="0"/>Para diseñar y dar un estilo a una pagina web<br/>
+                <input type="radio" name="r2" id="r2" value="0"/>Para codificar programas que son ejecutables solo en línea<br/>
+                <input type="radio" name="r2" id="r2" value="0"/>Para dar soporte y mantenimeinto a un servidor en la web<br/>
+                <br/>
+                <li>¿Qué hace CSS?</li>
+                <input type="radio" name="r3" id="r3" value="5"/>Manejar el diseño y presentación de las páginas web<br/>
+                <input type="radio" name="r3" id="r3" value="0"/>Mantener en línea y dar soporte a una página web<br/>
+                <input type="radio" name="r3" id="r3" value="0"/>Ejecutar y corregir errores de un archivo html<br/>
+                <input type="radio" name="r3" id="r3" value="0"/>Editar y crear funciones para su uso en una página web<br/>
+                <br/>
+                <li>¿Qué es JavaScript?</li>
+                <input type="radio" name="r4" id="r4" value="0"/>Lenguaje de programación para desarrollo de aplicaciones<br/>
+                <input type="radio" name="r4" id="r4" value="0"/>Lenguaje de programación orientada a objetos<br/>
+                <input type="radio" name="r4" id="r4" value="0"/>Lenguaje de programación para crear videojuegos<br/>
+                <input type="radio" name="r4" id="r4" value="5"/>Lenguaje de programación para hacer páginas web interactivas<br/>
+                <br/>
+                <li>¿Cuál no ofrece un Hosting Web?</li>
+                <input type="radio" name="r5" id="r5" value="0"/>GithHub<br/>
+                <input type="radio" name="r5" id="r5" value="0"/>000WebHost<br/>
+                <input type="radio" name="r5" id="r5" value="5"/>VisualStudio<br/>
+                <input type="radio" name="r5" id="r5" value="0"/>Squarespace<br/>
+            </ol>
+            
+        </div>
+         <!--Con un'input' de type 'button' que llamara a la funcion "califica()"-->
+        <input type="button" class="boton" value="Calificar" onclick="califica()">
+        </form>
+        <!--Con un 'id' retornara el resultado obtenido de la funcion-->
+        <p id="total">   </p>
+        <p id="comentario">   </p>
+        <iframe frameborder="0" width="600" height="500"></iframe>
+    </div>
+</body>
+</html>

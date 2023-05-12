@@ -1,0 +1,50 @@
+body
+{
+    /*FONDO DE LA PÁGINA*/
+    background-image: url(Imagenes/fondo_cuestionario.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100%;
+    /*ESTILO DE FUENTE*/
+    color: rgb(217, 192, 245);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+form
+{
+    /*ESTILO DE FUENTE*/
+    color: rgb(163, 226, 255);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+}
+
+li
+{
+    /*ESTILO DE FUENTE*/
+    color: rgb(163, 255, 247);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 700;
+}
+
+input.boton
+{
+    margin-left: 30px;
+    color: antiquewhite;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 700;
+    font-size: medium;
+    display:block;
+    width: 300px;
+    height: 30px;
+    background-color: rgb(100, 55, 151);
+}
+
+p
+{
+    /*ESTILO DE FUENTE*/
+    color: rgb(255, 255, 255);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+}
+
+
