@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ex Practico III</title>
+    <script src="examen_practico_p3.js"></script>
+    <link rel="stylesheet" href="examen_practico_p3.css"/>
+</head>
+<body>
+    <h2>Puedes obtener un producto gratis!</h2>
+    <div>
+        <form method="post" enctype="text/plain">
+            <!--Input para ingresar el nombre-->
+            <label for="nombre">Tu Nombre</label></br>
+            <input type="text" name="nombre" id="nombre"></br></br>
+            <!--Input para ingresar fecha de cumpleaños-->
+            <label for="fecha">Tu fecha de nacimiento </label>
+            <input type="date" name="fecha" id="fecha"/><br/><br/>
+            <!--Input para evaluar los datos ingresadose-->
+            <input type="button" name="boton" id="boton" onclick="evaluar()" value="Enviar formulario"><br/>
+        </form>
+        <!--Parrafo para mostrar el resultado-->
+        <p id="resultado">   </p>
+    </div> 
+</body>
+</html>
